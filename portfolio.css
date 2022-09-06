@@ -1,0 +1,148 @@
+html {
+    background-color: #073b4c;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#myImage {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+}
+
+#aboutMe {
+    /*color: #90e0ef;*/
+    color: #06d6a0;
+    font-size: 14pt;
+}
+
+
+#description {
+    color: white;
+    font-size: 12pt;
+}
+
+#myName {
+    position: fixed;
+    top: 22vh;
+    left: 41vh;
+    width: 35vh;
+    height: 35vh;
+    max-height: 21vh;
+    background-color: #073b4c;
+    color: white;
+    border-radius: 15vh;
+    font-size: 26pt;
+    padding-top: 6vh;
+    padding-left: 5vh;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+#myName:hover {
+    font-size: 29pt;
+    padding-top: 4vh;
+}
+
+#me {
+    position: fixed;
+    width: 50vw;
+    height: max-content;
+    bottom: 10vh;
+    right: 10vw;
+}
+
+#rightBlock {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 80vw;
+    background-color: #073b4c;
+}
+
+#nav-bar {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 10vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #06d6a0;
+    width: 80vw;
+    top: 4vh;
+    right: 10vw;
+    border-radius: 5vh;
+    z-index: 1;
+}
+
+h3 {
+    font-size: 12pt;
+    color: white;
+    margin-left: 2vw;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#contact-box {
+    position: fixed;
+    width: 50vw;
+    height: 50vh;
+    top: 20vh;
+    left: 5vw;
+    background-color: white;
+    border-radius: 2vh;
+}
+
+#contact-text {
+    font-size: 12pt;
+    padding-top: 2vh;
+    margin-left: 5vw;
+}
+
+#contactHeader {
+     margin-left: 5vw;
+    padding-top: 5vh;
+}
+
+#pf1 {
+    margin-top: 20vh;
+}
+
+#project-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 94vw;
+    margin: auto;
+    padding: 20vh 10px 10px 10px;
+}
+
+.project {
+    background-color: whitesmoke;
+    padding: 2vw 5vw;
+    width: 35vw;
+    border-radius: 2vw;
+    margin: 10px;
+}
+
+.proj-img {
+    width: 35vw;
+    position: static;
+    border-radius: 1vw;
+}

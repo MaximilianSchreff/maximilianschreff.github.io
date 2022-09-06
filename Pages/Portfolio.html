@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Montserrat&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header>
+    <h3>Maximilian Ho-Kyoung Schreff</h3>
+    <nav id="nav-bar">
+        <div>
+            <a href="../index.html" class="nav-link">Home</a>
+        </div>
+        <div>
+            <a href="./Portfolio.html" class="nav-link">Portfolio</a>
+        </div>
+        <div>
+            <a href="./Resume.html" class="nav-link">Resume</a>
+        </div>
+        <div>
+            <a href="./Contact.html" class="nav-link">Contact</a>
+        </div>
+    </nav>
+</header>
+<div id="project-container">
+    <div id="Battleships" class="project">
+        <h2>Battleships</h2>
+        <img class="proj-img" src="../Images/Battleship.png" alt="Picture of the CLI project">
+        <p>
+            <b>Technologies: </b>Java, OOP, CL-Input, Random Number Generation<br>
+            <br>
+            This has been my biggest project to date, and it took me more than 1000 lines of code to implement.
+            It is my take on the popular game Battleships which was also on of the first games to be turned into a video
+            game. In the project I make use of the object orientation of java. The ships, the battlefields and the
+            coordinates all have their respective classes interacting with each other. Another big aspect of this
+            project was the single player mode for which I came up with an algorithm which systematically imitates the
+            way that I personally play the game.<br>
+            <br>
+            Take a look at the Git repo: <a href="https://github.com/MaximilianSchreff/Battleships" target="_blank">Battleships</a>
+        </p>
+    </div>
+    <div id="Image Rescaling Tool" class="project">
+        <h2>Content Aware Image Resizing</h2>
+        <img class="proj-img" src="../Images/ImageRescaling.png" alt="Picture of the Image Rescaling result">
+        <p>
+            <b>Technologies: </b>Shortest Path Problem, Digraphs, Java<br>
+            <br>
+            This project was created for a university assignment for the shortest path problem. The basic framework for
+            this project was given to me. During rescaling, the algorithm tries to find the path of pixels through the
+            image with the least contrast. Removing these pixels would result in the smallest loss of information. This
+            is repeated until the desired width is reached. The image is modeled as an acyclic, weighted, directed grid
+            graph. The weight of the pixels to other pixels is determined by their contrast and the search is done
+            through a topological algorithm.
+            <br><br>
+        </p>
+        <img class="proj-img" src="../Images/ImageRescaling2.png" alt="Picture of the Image Rescaling result">
+        <p>
+            <br>
+            Take a look at the Git repo:
+            <a href="https://github.com/MaximilianSchreff/ImageResizing" target="_blank">Image Resizing</a>
+        </p>
+    </div>
+    <div id="Web Test Automation" class="project">
+        <h2>Web Test Automation</h2>
+        <img class="proj-img" src="../Images/RobotIcon.png" alt="Robot framework icon">
+        <p>
+            <b>Technologies: </b>Acceptance Testing, Python, HTML-Parsing, HTTP-Requests, ROBOT Framework, Selenium<br>
+            <br>
+            This was another big project which I took on during my internship at KPMG as a software developer. It was
+            a project for the test automation of a client website which KPMG developed. The website was a tool for
+            business travels to assess the risks and need for different requirements like social security and tax.
+            I worked with other software developers and developed the project according to the requirements of the tax
+            team. For Testing the assessments and functionality I used the ROBOT Framework with some python scripting.
+            Sadly I cannot share any of the source code in a Git repository.
+        </p>
+    </div>
+    <div id="Virtual Piano" class="project">
+        <h2>Virtual Piano</h2>
+        <img class="proj-img" src="../Images/VirtualPiano.png" alt="A picture of the piano website">
+        <p>
+            <b>Technologies: </b>HTML, CSS, JavaScript<br>
+            <br>
+            I love to play the piano in my free time. That is why I thought it would be fun to develop a web page which
+            is just that. A piano. <br>
+            This is a project to first get introduced to front-end development. I used CSS to design the piano properly
+            and JavaScript to work with the input from the keyboard. <br>
+            <br>
+            You can try it out yourself. Click
+            <a href="https://maximilianschreff.github.io/VirtualPiano/" target="_blank">here.</a>
+        </p>
+    </div>
+    <div id="Web Scraper" class="project">
+        <h2>Web Scraper</h2>
+        <img class="proj-img" src="../Images/WebScraper.png" alt="Picture of the Web Scraping result">
+        <p>
+            <b>Technologies: </b>Python, HTML-Parsing, HTTP-Requests, BeautifulSoup, Files<br>
+            <br>
+            This web scraper uses BeautifulSoup and the Python request library in order to get and parse the HTML code
+            of a website called nature.com. It takes the user input about the topic and number of pages which the
+            scraper will go through to find articles about the given topics. In the end, you will have different files
+            with the text from the articles of the given topic.<br>
+            <br>
+            Take a look at the Git repo:
+            <a href="https://github.com/MaximilianSchreff/WebScraper" target="_blank">Web Scraper</a>
+        </p>
+    </div>
+    <div id="Portfolio Page" class="project">
+        <h2>This Portfolio Page</h2>
+        <img class="proj-img" src="../Images/PortfolioImage.png" alt="Picture of the start page">
+        <p>
+            <b>Technologies: </b>HTML, CSS<br>
+            <br>
+            My biggest front-end project is this web page. I programmed it from scratch, worked with color combinations,
+            flexbox, navigation, different page layouts, means of interactiveness and other front-end technologies.
+            <br>
+            For preparation, I did a front-end course on hyperskill. That way, I go a better understanding of HTML, CSS,
+            JavaScript and general front-end development fundamentals.<br>
+            <br>
+            Take a look at the Git repo:
+            <a href="https://github.com/MaximilianSchreff/Portfolio" target="_blank">Portfolio Page</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
